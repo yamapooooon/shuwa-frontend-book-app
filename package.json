@@ -6,7 +6,8 @@
   "author": "mizuki-yamada <my79909369@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "lint:ts": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "^7.21.5",
