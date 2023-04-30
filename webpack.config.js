@@ -13,7 +13,8 @@ module.exports = {
 module: {
   rules: [
     {
-      test: /\.(j|t)s$/, //.jsもしくは.tsを対象とする
+      //test: /\.js$/,
+     test: /\.(j|t)s$/, //.jsもしくは.tsを対象とする
       exclude: /node_modules/,
       use: {
         loader: "babel-loader",
